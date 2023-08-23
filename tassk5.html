@@ -1,0 +1,73 @@
+<html>
+ <head>
+    <title>Flex box</title>
+    <style>
+      
+      *{
+          box-sizing:border-box;
+      }
+      h2{
+          text-align:center;
+      }
+      .container{
+          display:flex;
+          justify-content:center;
+          align-item:center;
+          gap:6rem;
+          border:2px solid blue;
+          flex-wrap: wrap;
+          background-color:sky blue;
+          border-radius:10px;
+          width:90%;
+          margin:auto;
+          
+      }
+      .item{
+          margin:5px;
+          text-align:center;
+          width :10rem;
+          height:10rem;
+          border:2px solid black;
+          border-radius:100%;
+          }
+       .btn{
+           display:flex;
+           justify-content:center;
+           align-item:center;
+           width:90%;
+           margin:auto;
+           gap:8px;
+           
+       }
+       a,button{
+           width:48%;
+           height:20px;
+           margin-top:3px;
+           background-color:blue;
+           color:white;
+           border-radius:5px;
+       }
+       a{
+           border:2px solid black;
+           text-decoration:none;
+           text-align:center;
+       }
+       
+       a:hover,button:hover{
+           background-color:green;
+       }
+    </style>
+ </head>
+  <body>
+      <h2>FLEX PROPERTIES USING </h2>
+      <div class="container">
+        <div class="item" id="box1">PART 1</div>
+        <div class="item" id="box2">PART 2</div>
+        <div class="item" id="box3">PART 3</div> 
+      </div>
+      <div class="btn">
+       <a href="#" target="_blanck" >Go to google</a> 
+       <button type="Submit" onclick="alert('Thanks for submitted')">Click</a>
+      </div>
+  </body>
+</html>

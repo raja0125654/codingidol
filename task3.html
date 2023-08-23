@@ -1,0 +1,174 @@
+<html>
+  <head>
+      <title>Registration Form</title>
+      <style>
+         body{
+             background-color:white;
+             }
+         form{
+             display:flex;
+             flex-direction:column;
+             align-items:center;
+             width:80%;
+             margin:auto;
+             border-radius:10px;
+             background-color:#ebebeb;
+             box-shadow: -4px -4px 0px 2px white,
+             4px 4px 0px 0px #ebebeb;
+             }
+         .input{
+             margin:3px;
+             width:80%;
+             
+         }
+         
+        .input input[type="text"], input[type="email"], input[type="number"], select, textarea{
+             width:100%;
+             height:30px;
+             border:none;
+             outline:none;
+             border-radius:7px;
+             text-align:center;
+             
+         }
+         select {
+             background-color:white;
+         }
+         textarea{
+             height:50px;
+             }
+             
+           
+             
+         button{
+             width:123%;
+             position:relative;   
+             top:6px;
+             background-color:blue;
+             color:white;
+             height:25px;
+             border-radius:5px;
+             border:none;
+             outline:none;
+             margin-left:0px;
+             
+         }
+         button:hover{
+             background-color:green;
+         }
+         
+             
+          a{
+              text-decoration:none;
+              color:white;
+              
+          }
+             
+      </style>
+  </head>
+  <body>
+     
+       <form>
+       <h2 > Registration form</h2>
+           <div class="input">
+            <input type="text" placeholder="Enter your first name". required/>
+            </div>
+            <div class="input">
+            <input type="text" placeholder="Enter your last name" required/>
+            </div>
+			<div class= "input"
+			<input type="text"placeholder="Enter your sure name" required/>
+			</div>
+            <div class="input">
+            <input type="text" placeholder="enrollment number" required/>
+            </div>
+		    <div class="input">
+            <input type="text" placeholder="roll No" required/>
+            </div>
+		    <div class="input">
+            <input type="number" placeholder="Phone No" required/>
+            </div>
+            <div class="input">
+            <input type="email" placeholder="Email" required/>
+            </div>
+       <div class="input">
+           <b> Select your branch</b>
+            <div class="radio">
+              <input type="radio" name="branch"/>CSE
+            </div>
+            <div class="radio">
+               <input type="radio" name="branch"/>ECE
+            </div>
+             <div class="radio">
+               <input type="radio" name="branch"/>IT
+            </div>
+            <div class="radio">
+              <input type="radio" name="branch"/>CIVIL
+            </div>
+			<div class="radio">
+              <input type="radio" name="branch"/>EEE
+            </div>
+			<div class="radio">
+              <input type="radio" name="branch"/>MECHANICAL ENGINEERING
+            </div>
+          </div> 
+            
+        <div class="input">  
+           <b>choose multiple options</b>
+        <div class="checkbox">
+            <input type="checkbox"/>HTML
+        </div>
+         <div class="checkbox">
+               <input type="checkbox"/> CSS
+            </div>
+         <div class="checkbox">
+               <input type="checkbox"/> Java
+            </div>
+           <div class="checkbox">
+               <input type="checkbox"/> JAVASCRIPT
+            </div>
+          <div class="checkbox">
+               <input type="checkbox"/> PYTHONE
+            </div>
+          <div class="checkbox">
+               <input type="checkbox"/> C
+            </div>
+           <div class="checkbox">
+               <input type="checkbox"/> C++
+           </div>
+            <div class="checkbox">
+               <input type="checkbox"/> C#
+            </div>
+            <div class="checkbox">
+               <input type="checkbox"/> PHP
+            </div>
+            <div class="checkbox">
+               <input type="checkbox"/> WEB DEVELOPMENT
+            </div>
+           </div>
+        <div class="input">
+           <b>Where are you from</b>
+           <br>
+           <select name="city">
+              <option value="">Select city</option>
+              <option value="MUMBAI">MUMBAI</option>
+              <option value="KOLKATA">KOLKATA</option>
+              <option value="HYDERABAD">HYDERABAD</option>
+              <option value="DELHI">DELHI</option>
+              <option value="BENGULURU">BENGLURU</option>
+              <option value="CHENNAI">CHENNAI</option>
+           </select>  
+        </div>
+        <div class="input">
+        <textarea type="text" placeholder="Share your opinions" required></textarea>
+        <div>
+        <div class="input">
+           <button type="submit" ><a href="submitdata.html" >SUBMIT </a></button>
+		   <button type="reset" ><a href="submitdata.html" >RESET </a></button>
+        </div>
+           
+             
+       </form>
+     
+  </body>
+</html>
